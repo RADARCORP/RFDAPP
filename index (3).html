@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RFD-3</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <style>
+        body {
+            background-image: url('fundo.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+ 
+    <audio id="audio" autoplay>
+    <source src="start.mp3" type="audio/mp3">
+    Seu navegador não suporta áudio.
+  </audio>
+
+  <div class="container">
+    
+    <label for="campoTexto"> 5 pessoas em busca do passado. (Duas letras a menos não nos torna diferentes!)
+    </label>
+    <input type="text" id="campoTexto" placeholder="resposta">
+    <button id="botaoProximo" onclick="validarCampo()">Próximo</button>
+  </div>
+<footer>
+   
+     
+  </footer>
+  <script src="script3.js"></script>
+<audio id="audio" autoplay loop="loop">
+    <source src="start.mp3" type="audio/mp3">
+</body>
+</html>
